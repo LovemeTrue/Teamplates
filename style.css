@@ -119,8 +119,8 @@ input::placeholder {
     background:#fcc302 url('/Users/yeezus/Desktop/Development/VeterinarHtml/img/thedog.png') no-repeat 88% 52%;
 }
 
-#subheader .container {
-    padding-top: 168px;
+#subheader .container { 
+    padding-top: 158px;
 }
 
 #subheader .container h1 {
@@ -181,3 +181,132 @@ input::placeholder {
 .ourservice_button:hover {
     text-decoration: underline;
 }
+
+
+#corpus_one {
+    min-height: 793px;
+    background: white url("/Users/yeezus/Desktop/Development/VeterinarHtml/img/wholeimage.png") no-repeat 88% 52%;
+}
+
+#corpus_one .container {
+    padding-top: 140px;
+}
+
+
+.corpus_one_button {
+    display: inline-block;
+    height: 69px;
+    width: 182px;
+    background-color: #fcc302;
+    border: solid #fcc302 2px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 61px;
+    margin-left: 120px;
+}
+
+#corpus_one .container h1 {
+    margin-right: 657px;
+    padding-bottom: 25px;
+    font-size: 3em;
+    width: 650px;
+    color: black;
+    font-weight: 500;
+    padding-top: 49px;
+} 
+
+#corpus_one .container p {
+    margin-right: 641px;
+    color: black;
+    font-size: 1.5em;
+}
+
+.corpus_one_button a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 500;
+}
+    
+#corpus_one::after {
+    content: "";
+    background: #fcc302;
+    position: absolute;
+    height: 206px;
+    width: 40px;
+    z-index: 10;
+    margin-top: 7px;
+    margin-left: 476px;
+}
+
+#corpus_one::before {
+    content: "";
+    background: #fcc302;
+    position: absolute;
+    height: 33px;
+    width: 250px;
+    z-index: 10;
+    margin-top: 643px;
+    margin-left: 782px;
+}
+
+
+#corpus_two {
+    min-height: 1017px;
+    background: #fcc302 url("/Users/yeezus/Desktop/Development/VeterinarHtml/img/wholedoctors.png") no-repeat 50% 44%;
+}
+
+#corpus_two .container_one {
+    padding-top: 140px;
+}
+
+
+#corpus_two .container_one h1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 120px;
+    z-index: 500;
+    font-size: 3em;
+    color: white;
+    font-weight: 650;
+    padding-top: 60px;
+    padding-left: 487px;
+} 
+
+#corpus_two .container_one p {
+    margin-right: 657px;
+    padding-bottom: 25px;
+    font-size: 1.3em;
+    width: 542px;
+    color: white;
+    font-weight: 300;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 331px;
+} 
+
+#corpus_two .container_two h2 {
+    display: inline-block;
+    position: absolute;
+    left: px;
+    top: 0px;
+    width: 3px;
+    line-height: 120px;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    margin-left: 200px;
+    padding-top: 500px;
+} 
+
+#corpus_two .container_two p {
+    font-size: 1em;
+    width: 650px;
+    color: white;
+    font-weight: 500;
+    padding-top: 49px;
+} 
+
+
