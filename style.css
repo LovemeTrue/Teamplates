@@ -256,66 +256,68 @@ input::placeholder {
 }
 
 #corpus_two {
-    padding-top: 120px;
-    background: #fcc302;
+    background:#fcc302;
+    min-height: 1017px;
 }
 
 #corpus_two .container_one {
-    min-height: 1017px;
-    background: url("img/wholedoctors.png") no-repeat 50% 44%;
+    position: relative;
+}
+
+#corpus_two .container_one img {
+    margin-top: 30px;
+    margin-bottom: 384px;
+}
+
+#corpus_two .container_two {
+    margin-left: -92px;
 }
 
 #corpus_two .container_one h1 {
-    position: absolute;
-    height: 120px;
-    z-index: 500;
+    height: 91px;
     font-size: 3em;
     color: white;
     font-weight: 650;
-    margin-top: -56px;
+    margin-top: -59px;
     padding-left: 487px;
-} 
+    padding-top: 63px;
+}
 
 #corpus_two .container_one p {
     margin-right: 657px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     font-size: 1.3em;
     width: 542px;
     color: white;
     font-weight: 300;
-    padding-top: 33px;
     text-align: center;
     padding-left: 331px;
 } 
 
 #corpus_two .container_two h2 {
     display: inline-block;
-    position: absolute;
+    position: relative;
     font-size: 2.3em;
-    width: 400px;
     color: white;
     font-weight: 500;
+    width: -346px;
     bottom: 443px;
     text-align: center;
+    padding-left: 87px;
+    width: 359px;
 } 
 
 #corpus_two .container_two p {
     display: inline-block;
     font-size: 1em;
-    width: 242.1px;
+    width: 224px;
     color: white;
-    font-weight: 500;
+    font-weight: 383;
     position: relative;
-    right: 109px;
     bottom: 348px;
-    left: -72px;
+    left: -39px;
     text-align: center;
-    margin-left: 155px;
-    margin-top: 55px;
-}
-
-
-#corpus_two .container_two {
-    display: inline-block;
-    position: absolute;
+    margin-top: 56px;
+    margin-left: -254px;
+    margin-right: -16px;
 }
